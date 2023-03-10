@@ -1,0 +1,8 @@
+p{
+    display: block;
+    width: 90%;
+    font-size: 1.5em;
+    color: #ebebeb;
+    z-index: 5;
+    text-align: justify;
+}

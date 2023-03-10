@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e440e7be66.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="src/styles/style.css">
+    <link rel="stylesheet" href="src/styles/index.css">
+    <title>Portfólio</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo"><b>@</b>eumemomrx</div>
+            <ul class="navItems">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+            </ul>
+            <div class="links">
+                <a href="https://www.linkedin.com/in/robson-lu%C3%ADz-221784231/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/eumemomrx/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/eumemomrx" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </nav>
+        <div class="wrapper">
+            <div class="cols cols0">
+                <span class="topline">Olá!</span>
+                <h1>Meu nome é <span class="multiText"></span></h1>
+                <p>Dev C#, Java, HTML, CSS, TypeScript, Python, SQL e PHP</p>
+                <div class="btns">
+                    <a href="src/files/CVRobson.pdf" target="_blank"><button >Download CV</button>
+                    </a>
+                </div>
+            </div>
+            <div class="cols cols1">
+                <div class="imgbox">
+                    <img src="src/images/index/splash.png" alt="" id="splash">
+                    <img src="src/images/index/img1.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typingEffect = new Typed(".multiText",{
+            strings : ["Robson"],
+            loop : true,
+            typeSpeed : 100,
+            backSpeed : 80,
+            backDelay : 1500,
+        })
+    </script>
+</body>
+</html>
